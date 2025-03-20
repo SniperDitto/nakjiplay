@@ -1,0 +1,764 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFB479A62D8C74D500136E30 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB479A52D8C74D500136E30 /* WidgetKit.framework */; };
+		BFB479A82D8C74D500136E30 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB479A72D8C74D500136E30 /* SwiftUI.framework */; };
+		BFB479B92D8C74D700136E30 /* NakjiWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = BFB479A32D8C74D500136E30 /* NakjiWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF3AA2332D8C53E80025F9F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF3AA21A2D8C53E50025F9F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF3AA2212D8C53E50025F9F2;
+			remoteInfo = nakjiplay;
+		};
+		BF3AA23D2D8C53E80025F9F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF3AA21A2D8C53E50025F9F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF3AA2212D8C53E50025F9F2;
+			remoteInfo = nakjiplay;
+		};
+		BFB479B72D8C74D700136E30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF3AA21A2D8C53E50025F9F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFB479A22D8C74D500136E30;
+			remoteInfo = NakjiWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BFB479BA2D8C74D700136E30 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				BFB479B92D8C74D700136E30 /* NakjiWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BF3AA2222D8C53E50025F9F2 /* nakjiplay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nakjiplay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF3AA2322D8C53E80025F9F2 /* nakjiplayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nakjiplayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF3AA23C2D8C53E80025F9F2 /* nakjiplayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nakjiplayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFB479A32D8C74D500136E30 /* NakjiWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NakjiWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFB479A52D8C74D500136E30 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		BFB479A72D8C74D500136E30 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		BF3AA2502D8C5B150025F9F2 /* Exceptions for "nakjiplay" folder in "nakjiplay" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = BF3AA2212D8C53E50025F9F2 /* nakjiplay */;
+		};
+		BFB479BE2D8C74D700136E30 /* Exceptions for "NakjiWidget" folder in "NakjiWidgetExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = BFB479A22D8C74D500136E30 /* NakjiWidgetExtension */;
+		};
+		BFB479C02D8C759700136E30 /* Exceptions for "NakjiWidget" folder in "nakjiplay" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				NakjiWidgetLiveActivity.swift,
+			);
+			target = BF3AA2212D8C53E50025F9F2 /* nakjiplay */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		BF3AA2242D8C53E50025F9F2 /* nakjiplay */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				BF3AA2502D8C5B150025F9F2 /* Exceptions for "nakjiplay" folder in "nakjiplay" target */,
+			);
+			path = nakjiplay;
+			sourceTree = "<group>";
+		};
+		BF3AA2352D8C53E80025F9F2 /* nakjiplayTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = nakjiplayTests;
+			sourceTree = "<group>";
+		};
+		BF3AA23F2D8C53E80025F9F2 /* nakjiplayUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = nakjiplayUITests;
+			sourceTree = "<group>";
+		};
+		BFB479A92D8C74D500136E30 /* NakjiWidget */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				BFB479C02D8C759700136E30 /* Exceptions for "NakjiWidget" folder in "nakjiplay" target */,
+				BFB479BE2D8C74D700136E30 /* Exceptions for "NakjiWidget" folder in "NakjiWidgetExtension" target */,
+			);
+			path = NakjiWidget;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF3AA21F2D8C53E50025F9F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF3AA22F2D8C53E80025F9F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF3AA2392D8C53E80025F9F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFB479A02D8C74D500136E30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFB479A82D8C74D500136E30 /* SwiftUI.framework in Frameworks */,
+				BFB479A62D8C74D500136E30 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF3AA2192D8C53E50025F9F2 = {
+			isa = PBXGroup;
+			children = (
+				BF3AA2242D8C53E50025F9F2 /* nakjiplay */,
+				BF3AA2352D8C53E80025F9F2 /* nakjiplayTests */,
+				BF3AA23F2D8C53E80025F9F2 /* nakjiplayUITests */,
+				BFB479A92D8C74D500136E30 /* NakjiWidget */,
+				BFB479A42D8C74D500136E30 /* Frameworks */,
+				BF3AA2232D8C53E50025F9F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF3AA2232D8C53E50025F9F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF3AA2222D8C53E50025F9F2 /* nakjiplay.app */,
+				BF3AA2322D8C53E80025F9F2 /* nakjiplayTests.xctest */,
+				BF3AA23C2D8C53E80025F9F2 /* nakjiplayUITests.xctest */,
+				BFB479A32D8C74D500136E30 /* NakjiWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFB479A42D8C74D500136E30 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BFB479A52D8C74D500136E30 /* WidgetKit.framework */,
+				BFB479A72D8C74D500136E30 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF3AA2212D8C53E50025F9F2 /* nakjiplay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF3AA2462D8C53E80025F9F2 /* Build configuration list for PBXNativeTarget "nakjiplay" */;
+			buildPhases = (
+				BF3AA21E2D8C53E50025F9F2 /* Sources */,
+				BF3AA21F2D8C53E50025F9F2 /* Frameworks */,
+				BF3AA2202D8C53E50025F9F2 /* Resources */,
+				BFB479BA2D8C74D700136E30 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFB479B82D8C74D700136E30 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BF3AA2242D8C53E50025F9F2 /* nakjiplay */,
+			);
+			name = nakjiplay;
+			packageProductDependencies = (
+			);
+			productName = nakjiplay;
+			productReference = BF3AA2222D8C53E50025F9F2 /* nakjiplay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF3AA2312D8C53E80025F9F2 /* nakjiplayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF3AA2492D8C53E80025F9F2 /* Build configuration list for PBXNativeTarget "nakjiplayTests" */;
+			buildPhases = (
+				BF3AA22E2D8C53E80025F9F2 /* Sources */,
+				BF3AA22F2D8C53E80025F9F2 /* Frameworks */,
+				BF3AA2302D8C53E80025F9F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF3AA2342D8C53E80025F9F2 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BF3AA2352D8C53E80025F9F2 /* nakjiplayTests */,
+			);
+			name = nakjiplayTests;
+			packageProductDependencies = (
+			);
+			productName = nakjiplayTests;
+			productReference = BF3AA2322D8C53E80025F9F2 /* nakjiplayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF3AA23B2D8C53E80025F9F2 /* nakjiplayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF3AA24C2D8C53E80025F9F2 /* Build configuration list for PBXNativeTarget "nakjiplayUITests" */;
+			buildPhases = (
+				BF3AA2382D8C53E80025F9F2 /* Sources */,
+				BF3AA2392D8C53E80025F9F2 /* Frameworks */,
+				BF3AA23A2D8C53E80025F9F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF3AA23E2D8C53E80025F9F2 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BF3AA23F2D8C53E80025F9F2 /* nakjiplayUITests */,
+			);
+			name = nakjiplayUITests;
+			packageProductDependencies = (
+			);
+			productName = nakjiplayUITests;
+			productReference = BF3AA23C2D8C53E80025F9F2 /* nakjiplayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		BFB479A22D8C74D500136E30 /* NakjiWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFB479BD2D8C74D700136E30 /* Build configuration list for PBXNativeTarget "NakjiWidgetExtension" */;
+			buildPhases = (
+				BFB4799F2D8C74D500136E30 /* Sources */,
+				BFB479A02D8C74D500136E30 /* Frameworks */,
+				BFB479A12D8C74D500136E30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				BFB479A92D8C74D500136E30 /* NakjiWidget */,
+			);
+			name = NakjiWidgetExtension;
+			packageProductDependencies = (
+			);
+			productName = NakjiWidgetExtension;
+			productReference = BFB479A32D8C74D500136E30 /* NakjiWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF3AA21A2D8C53E50025F9F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					BF3AA2212D8C53E50025F9F2 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					BF3AA2312D8C53E80025F9F2 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = BF3AA2212D8C53E50025F9F2;
+					};
+					BF3AA23B2D8C53E80025F9F2 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = BF3AA2212D8C53E50025F9F2;
+					};
+					BFB479A22D8C74D500136E30 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = BF3AA21D2D8C53E50025F9F2 /* Build configuration list for PBXProject "nakjiplay" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF3AA2192D8C53E50025F9F2;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = BF3AA2232D8C53E50025F9F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF3AA2212D8C53E50025F9F2 /* nakjiplay */,
+				BF3AA2312D8C53E80025F9F2 /* nakjiplayTests */,
+				BF3AA23B2D8C53E80025F9F2 /* nakjiplayUITests */,
+				BFB479A22D8C74D500136E30 /* NakjiWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF3AA2202D8C53E50025F9F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF3AA2302D8C53E80025F9F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF3AA23A2D8C53E80025F9F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFB479A12D8C74D500136E30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF3AA21E2D8C53E50025F9F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF3AA22E2D8C53E80025F9F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF3AA2382D8C53E80025F9F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFB4799F2D8C74D500136E30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF3AA2342D8C53E80025F9F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF3AA2212D8C53E50025F9F2 /* nakjiplay */;
+			targetProxy = BF3AA2332D8C53E80025F9F2 /* PBXContainerItemProxy */;
+		};
+		BF3AA23E2D8C53E80025F9F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF3AA2212D8C53E50025F9F2 /* nakjiplay */;
+			targetProxy = BF3AA23D2D8C53E80025F9F2 /* PBXContainerItemProxy */;
+		};
+		BFB479B82D8C74D700136E30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFB479A22D8C74D500136E30 /* NakjiWidgetExtension */;
+			targetProxy = BFB479B72D8C74D700136E30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BF3AA2442D8C53E80025F9F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BF3AA2452D8C53E80025F9F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF3AA2472D8C53E80025F9F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"nakjiplay/Preview Content\"";
+				DEVELOPMENT_TEAM = 6ZMQ4Z6524;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = nakjiplay/Info.plist;
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nakji.nakjiplay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF3AA2482D8C53E80025F9F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"nakjiplay/Preview Content\"";
+				DEVELOPMENT_TEAM = 6ZMQ4Z6524;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = nakjiplay/Info.plist;
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nakji.nakjiplay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BF3AA24A2D8C53E80025F9F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6ZMQ4Z6524;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nakji.nakjiplayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nakjiplay.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/nakjiplay";
+			};
+			name = Debug;
+		};
+		BF3AA24B2D8C53E80025F9F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6ZMQ4Z6524;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nakji.nakjiplayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nakjiplay.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/nakjiplay";
+			};
+			name = Release;
+		};
+		BF3AA24D2D8C53E80025F9F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6ZMQ4Z6524;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nakji.nakjiplayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = nakjiplay;
+			};
+			name = Debug;
+		};
+		BF3AA24E2D8C53E80025F9F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6ZMQ4Z6524;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nakji.nakjiplayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = nakjiplay;
+			};
+			name = Release;
+		};
+		BFB479BB2D8C74D700136E30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6ZMQ4Z6524;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NakjiWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NakjiWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nakji.nakjiplay.NakjiWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFB479BC2D8C74D700136E30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6ZMQ4Z6524;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NakjiWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NakjiWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nakji.nakjiplay.NakjiWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF3AA21D2D8C53E50025F9F2 /* Build configuration list for PBXProject "nakjiplay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF3AA2442D8C53E80025F9F2 /* Debug */,
+				BF3AA2452D8C53E80025F9F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF3AA2462D8C53E80025F9F2 /* Build configuration list for PBXNativeTarget "nakjiplay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF3AA2472D8C53E80025F9F2 /* Debug */,
+				BF3AA2482D8C53E80025F9F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF3AA2492D8C53E80025F9F2 /* Build configuration list for PBXNativeTarget "nakjiplayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF3AA24A2D8C53E80025F9F2 /* Debug */,
+				BF3AA24B2D8C53E80025F9F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF3AA24C2D8C53E80025F9F2 /* Build configuration list for PBXNativeTarget "nakjiplayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF3AA24D2D8C53E80025F9F2 /* Debug */,
+				BF3AA24E2D8C53E80025F9F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFB479BD2D8C74D700136E30 /* Build configuration list for PBXNativeTarget "NakjiWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFB479BB2D8C74D700136E30 /* Debug */,
+				BFB479BC2D8C74D700136E30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF3AA21A2D8C53E50025F9F2 /* Project object */;
+}
